@@ -42,10 +42,15 @@ html {
     background-repeat: no-repeat;
     opacity: .97;
     filter: brightness(20%);
+    background-attachment: fixed;
+}
+nav{
+    position: relative;
 }
 nav .menu{
     width: 200px;
     background-color: black;
+    position: absolute;
 }
 nav .menu p{
     font-size: 1.8rem;
@@ -69,7 +74,7 @@ nav ul{
     background: black;
     transition: 0.3s;
     /* line-height: 40px;      */
-    /* padding: 2% 5% 3% 2%; */
+    /* padding: 2% 5% 3% 6%; */
     height: 0;
     overflow: hidden;
 }
@@ -82,3 +87,59 @@ ul li a:hover{
      cursor: pointer;
 }
 /* banner ends */
+
+/* banner content start */
+.banner-content{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 170px;
+}
+.banner-content h4{
+    color: var(--pink-color);
+    font-weight: 900;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+}
+.banner-content h1{
+    color: white;
+    font-size: 4rem;
+    word-spacing:10px;
+}
+.banner p{
+    color: grey;
+}
+.banner-content p::after{
+    content: " | ";
+    margin-left:10px;
+}
+.banner-content p::before{
+    content: " | ";
+    margin-right: 10px;
+}
+.banner-content button{
+     border: 3px solid grey;
+     background: none;
+     color: white;
+     display: block;
+     margin: 0 auto;
+     margin-top: 30px;
+     width: 180px;
+     height: 50px;
+     cursor: pointer;
+     transition: 0.3s;
+     transition-property: border;
+  
+
+}
+.banner-content button:hover{
+    border: 3px solid var(--pink-color);
+}
+.social-link{
+    display: inline-block;
+    color: white;
+    font-size: 3rem;
+    margin-top: 15%;
+}
+
+/* banner content ends */
