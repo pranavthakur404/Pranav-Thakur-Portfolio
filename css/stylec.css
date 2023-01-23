@@ -6,7 +6,7 @@
   font-family: "Lato", sans-serif;
 }
 :root{
-    --pink-color : #990047;
+    --pink-color : #c21063;
 }
 html {
   font-size: 15px;
@@ -19,7 +19,7 @@ html {
 }
 .container {
   max-width: 1100px;
-  padding: 2% 1%;
+  padding: 4% 1%;
   margin: 0 auto;
   z-index: 5;
 }
@@ -218,5 +218,113 @@ ul li a:hover{
 .about-section .downlaod-btn:hover{
     background: #161616;
 }
-
 /* about section ends */
+
+/* resume section start */
+.resume{
+    width: 100%;
+    background:#EBEBEB;
+    text-align: center;
+}
+.resume .heading{
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: var(--pink-color);
+}
+.resume .subheading{
+    color: rgb(31, 31, 31);
+    font-size: 2.5rem;
+    font-weight: 700;
+    word-spacing:10px;
+}
+.work-exp{
+    width:60%;
+    margin: 0 auto;
+    margin-top:40px;
+}
+.work-exp .work-exp-heading{
+    color: var(--pink-color);
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.work-exp .exp1{
+   width: 70%;
+   margin: 0 auto;
+   margin-top: 30px;
+   border-left: 2px solid silver;
+   position: relative;
+   padding: 3% 0px 3% 10%;
+   text-align: left;
+
+}
+.work-exp .exp1 .fa{
+    position: absolute;
+    left: -5%;
+    top: 0%;
+    font-size: 1.1rem;
+    background-color: rgb(31, 31, 31);
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
+}
+.work-exp .exp1 hr{
+    border: none;
+    width: 25%;
+    height: 2px;
+    background:silver;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.edu{
+    width: 60%;
+    margin: auto;
+    margin-top: 45px;
+}
+.edu-heading{
+    color: var(--pink-color);
+    font-weight: 900;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+.edu-box{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    border-left: 2px solid silver;
+    padding: 3% 0px 3% 10%;
+    position: relative;
+}
+.edu-box .name{
+    font-size: 1.3rem;
+}
+.edu-box .fa{
+    position: absolute;
+    left: -4%;
+    top: 0%;
+    font-size: 1.1rem;
+    background-color: rgb(31, 31, 31);
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
+}
+.edu-box .year{
+    color: grey;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.edu-box .more{
+    color: rgb(75, 75, 75);
+}
+.edu-box hr{
+    border: none;
+    width: 25%;
+    height: 2px;
+    background:silver;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+
+/* resume section ends */
