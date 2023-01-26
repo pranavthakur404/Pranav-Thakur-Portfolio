@@ -225,6 +225,7 @@ ul li a:hover {
   width: 100%;
   background: #ebebeb;
   text-align: center;
+  padding: 7% 1%;
 }
 .resume .heading {
   font-size: 0.9rem;
@@ -343,8 +344,8 @@ ul li a:hover {
   gap: 30px;
 }
 .skills-section .icon-container img {
-  width: 200px;
-  height: 170px;
+  width:110px;
+  height: 150px;
   margin-top: 30px;
   transition: 0.4s;
 }
@@ -580,11 +581,13 @@ ul li a:hover {
   margin-top:50px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 100px;
+  gap:20px;
 }
 .footer-bottom .box{
-  padding: 3%;
+  width: 30%;
+  padding: 1%;
 } 
 .footer-bottom i{
   color:white;
@@ -608,3 +611,76 @@ ul li a:hover {
   color: white;
 }
 /* footer ends */
+
+/* MEDIA QUERY START */
+@media only screen and (max-width:726px){
+  html{
+    font-size: 14px;
+  }
+  .about-section .two-boxes .box{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .work-exp .exp1 .fa{
+    left: -7%;
+  }
+  .edu-box .fa {
+    left: -6%;
+  }
+  .project-inner .project{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width:598px){
+  .work-exp .exp1 .fa{
+    left: -9%;
+  }
+  .edu-box .fa {
+    left: -8%;
+  }
+}
+
+@media only screen and (max-width:585px){
+  .work-exp .exp1 .fa{
+    left: -5%;
+  }
+  .edu-box .fa {
+    left: -4%;
+  }
+  .work-exp{
+    width: 100%;
+  }
+  .edu{
+    width: 100%;
+  }
+  .skills-section .icon-container img {
+    width: 80px;
+    height: 90px;
+  }
+  .footer-bottom .box{
+    width:50%;
+  }
+
+}
+
+@media only screen and (max-width:502px){
+  .work-exp .exp1 .fa{
+    left: -6%;
+  }
+  .edu-box .fa {
+    left: -5%;
+  }
+}
+
+@media only screen and (max-width:435px){
+  .work-exp .exp1 .fa{
+    left: -7%;
+  }
+  .edu-box .fa {
+    left: -6%;
+  }
+}
